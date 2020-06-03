@@ -2,6 +2,8 @@
 
 ## To start, a writing exercise.
 
+![](viz/writing.gif)
+
 Write out the differences between:
 
 - A discrete and continous variable, as well as an example of each
@@ -22,6 +24,8 @@ Write your answers here
 
 
 ## A spot of coding, eh
+![](viz/eh.gif)
+
 #### Imports
 
 
