@@ -27,6 +27,8 @@ Write your answers here
 
 ```python
 
+#Run this cell as-is
+
 #data manip
 import numpy as np
 
@@ -78,9 +80,9 @@ prob_1 = (
 
 ### Problem 2
 
-Lebron and MJ are playing pickup 1:1 (no 3pt shots, no fouls)
+Lebron and MJ are playing pickup 1:1 (all made baskets are 2pts)
 
-Every time Lebron drives on MJ, he has an 80% chance of scoring 2 pts
+Every time Lebron drives on MJ, he has an 80% chance of making a basket
 
 During the course of the game, Lebron drives 45 times
 
@@ -166,7 +168,6 @@ prob_2 = (
             binomial_prob(p, k, n)
             for k
             in range(40, 46)
-            
         ]
     
     )
