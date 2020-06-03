@@ -67,7 +67,7 @@ prob_1 = #your code here
 
 
 ```python
-#run this cell to your expected value
+#run this cell to test your expected value
 
 run_test(exp_val_1, 'exp_val_1')
 ```
@@ -88,9 +88,9 @@ run_test(prob_1, 'prob_1')
 
 ### Problem 2
 
-Lebron and MJ are playing pickup 1:1 (no 3pt shots, no fouls)
+Lebron and MJ are playing pickup 1:1 (all made baskets are 2pts)
 
-Every time Lebron drives on MJ, he has an 80% chance of scoring 2 pts
+Every time Lebron drives on MJ, he has an 80% chance of making a basket
 
 During the course of the game, Lebron drives 45 times
 
@@ -113,7 +113,7 @@ prob_2 = #your code here
 
 
 ```python
-#run this cell to your expected value
+#run this cell to test your expected value
 
 run_test(exp_val_2, 'exp_val_2')
 ```
