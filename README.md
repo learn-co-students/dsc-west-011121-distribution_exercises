@@ -1,3 +1,4 @@
+
 # Distributions warmup!
 
 ## To start, a writing exercise.
@@ -63,7 +64,7 @@ What is the probability in a given hour that he achieves posting nirvana and pos
 exp_val_1 = 47
 var_1 = 47
 
-k = 47
+k = 60
 
 #we want to find the probability of P(X=60)
 prob_1 = (
@@ -72,15 +73,18 @@ prob_1 = (
     /np.math.factorial(k)
 )
 
-#used for tests
-# pkl_dump([
-#     (exp_val_1, 'exp_val_1'),
-#     (var_1, 'var_1'),
-#     (prob_1, 'prob_1')
-# ])
+# used for tests
+pkl_dump([
+    (exp_val_1, 'exp_val_1'),
+    (var_1, 'var_1'),
+    (prob_1, 'prob_1')
+])
 
 # prob_1
 ```
+
+    can"t dump, exp_val_1 already exists
+
 
 ### Problem 2
 
