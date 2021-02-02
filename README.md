@@ -1,3 +1,4 @@
+
 # Distributions warmup!
 
 ## To start, a writing exercise.
@@ -83,6 +84,21 @@ prob_1 = #your code here
 ```
 
 
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-31-624091ed50d0> in <module>
+         12     exp_val_1**k
+         13     *np.exp(-exp_val_1)
+    ---> 14     /np.math.factorial(k)
+         15 )
+
+
+    TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
+
+
+
 ```python
 #__SOLUTION__
 
@@ -91,7 +107,7 @@ prob_1 = #your code here
 exp_val_1 = 47
 var_1 = 47
 
-k = 47
+k = 60
 
 #we want to find the probability of P(X=60)
 prob_1 = (
@@ -100,15 +116,18 @@ prob_1 = (
     /np.math.factorial(k)
 )
 
-#used for tests
-# pkl_dump([
-#     (exp_val_1, 'exp_val_1'),
-#     (var_1, 'var_1'),
-#     (prob_1, 'prob_1')
-# ])
+# used for tests
+pkl_dump([
+    (exp_val_1, 'exp_val_1'),
+    (var_1, 'var_1'),
+    (prob_1, 'prob_1')
+])
 
 # prob_1
 ```
+
+    can"t dump, exp_val_1 already exists
+
 
 
 ```python
@@ -118,6 +137,13 @@ run_test(exp_val_1, 'exp_val_1')
 ```
 
 
+
+
+    'Hey, you did it.  Good job.'
+
+
+
+
 ```python
 #run this cell to test your variance
 
@@ -125,11 +151,25 @@ run_test(var_1, 'var_1')
 ```
 
 
+
+
+    'Hey, you did it.  Good job.'
+
+
+
+
 ```python
 #run this cell to test your probability
 
 run_test(prob_1, 'prob_1')
 ```
+
+
+
+
+    'Try again'
+
+
 
 ### Problem 2
 
