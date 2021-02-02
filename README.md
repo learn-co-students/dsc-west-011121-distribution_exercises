@@ -1,3 +1,4 @@
+
 # Distributions warmup!
 
 ## To start, a writing exercise.
@@ -70,11 +71,33 @@ prob_1 = #your code here
 ```
 
 
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-31-624091ed50d0> in <module>
+         12     exp_val_1**k
+         13     *np.exp(-exp_val_1)
+    ---> 14     /np.math.factorial(k)
+         15 )
+
+
+    TypeError: unsupported operand type(s) for ** or pow(): 'NoneType' and 'int'
+
+
+
 ```python
 #run this cell to test your expected value
 
 run_test(exp_val_1, 'exp_val_1')
 ```
+
+
+
+
+    'Hey, you did it.  Good job.'
+
+
 
 
 ```python
@@ -84,11 +107,25 @@ run_test(var_1, 'var_1')
 ```
 
 
+
+
+    'Hey, you did it.  Good job.'
+
+
+
+
 ```python
 #run this cell to test your probability
 
 run_test(prob_1, 'prob_1')
 ```
+
+
+
+
+    'Try again'
+
+
 
 ### Problem 2
 
